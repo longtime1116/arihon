@@ -19,6 +19,7 @@ int main() {
         cin >> a[i];
     }
 
+    // i 個目までの要素で最長な個数はdp[i]個
     REP(i, n) {
         dp[i] = 1;
         REP(j, i) {
